@@ -71,3 +71,24 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.parent{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 25px;
+grid-row-gap: 10px;
+}
+
+.gridd{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.background{
+  background: linear-gradient(88deg, #000000 0%, #090a19 50%, #020413 100%);
+}
+
