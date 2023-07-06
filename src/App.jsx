@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import dev from "../public/dev-ed-wave.png";
 import web1 from "../public/Bank.jpg";
 import web2 from "../public/space-app.png";
@@ -59,8 +59,8 @@ function App() {
         
 
         <div className="flex text-5xl justify-center gap-10 py-3 text-gray-600 cursor-pointer">
-          <a className="text-white" href="https://twitter.com/xsaulglz" target="_blank">
-            <AiFillTwitterCircle className="hover:text-[#cd6e15]" />
+          <a className="text-white" href="https://github.com/xsaul" target="_blank">
+            <AiFillGithub className="hover:text-[#cd6e15]" />
           </a>
           <a
             className="text-white"
