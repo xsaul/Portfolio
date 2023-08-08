@@ -1,12 +1,13 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import dev from "../public/dev-ed-wave.png";
-import web1 from "../public/Bank.jpg";
-import web2 from "../public/space-app.png";
-import web3 from "../public/LoopS.jpg";
-import web4 from "../public/Starbucks.jpg";
-import web6 from "../public/Hulu.png";
-import logoSmall from "../public/logoSmall.jpg";
+import dev from "../src/images/dev-ed-wave.png";
+import web1 from "../src/images/Bank.jpg";
+import web2 from "../src/images/space-app.png";
+import web3 from "../src/images/LoopS.jpg";
+import web4 from "../src/images/Starbucks.jpg";
+import web5 from "../src/images/Drinkally.jpg";
+import web6 from "../src/images/Hulu.png";
+import logoSmall from "../src/images/logoSmall.jpg";
 
 function App() {
   return (
@@ -106,6 +107,15 @@ function App() {
                 layout="responsive"
               />
               <a className="py-5 px-2 mt-5 text-2xl text-gray-200 border-solid border-2 rounded border-white hover:border-[#cd6e15] hover:text-[#cd6e15]" href="https://xsaul.github.io/starbucks-clone-site/" target="_blank" >Starbucks Clone Site</a>
+            </div>
+            <div className="py-5 mb-5">
+              <img
+                src={web5}
+                alt=""
+                className="rounded-lg object-cover mb-10 w-full max-w-[500px]"
+                layout="responsive"
+              />
+              <a className="py-5 px-2 mt-5 text-2xl text-gray-200 border-solid border-2 rounded border-white hover:border-[#cd6e15] hover:text-[#cd6e15]" href="https://xsaul.github.io/drinkally/" target="_blank">Drinkally site</a>
             </div>
             <div className="py-5 mb-5">
               <img
