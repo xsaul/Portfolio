@@ -26,7 +26,7 @@ function App() {
                 className="hover:bg-[#e67b18] bg-[#cd6e15] text-gray-200 px-4 py-2 border-none rounded-md ml-8"
                 href="https://rxresu.me/xsaul/frontend-development" target="_blank"
               >
-              CV here
+              Resume here
               </a>
             </li>
           </ul>
@@ -83,18 +83,32 @@ function App() {
             <p className="text-gray-200 text-xl  px-3 py-3">CSS3</p>
             <p className="text-gray-200 text-xl  px-3 py-3">JavaScript</p>
             <p className="text-gray-200 text-xl  px-3  py-3">React</p>
-            <p className="text-gray-200 text-xl  px-3  py-3">BootStrap</p>
             <p className="text-gray-200 text-xl  px-3 py-3">TailwindCSS</p>
+            <p className="text-gray-200 text-xl  px-3  py-3">BootStrap</p>
+            <p className="text-gray-200 text-xl  px-3 py-3">Figma</p>
             <p className="text-gray-200 text-xl  px-3 py-3">Git</p>
-            <p className="text-gray-200 text-xl  px-3 py-3">Sass</p>
 
           </div>
         </div>
         <svg className="w-[84.3rem] ml-[-5rem]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e77000" fillOpacity="0.95" d="M0,128L24,122.7C48,117,96,107,144,106.7C192,107,240,117,288,128C336,139,384,149,432,160C480,171,528,181,576,192C624,203,672,213,720,229.3C768,245,816,267,864,250.7C912,235,960,181,1008,181.3C1056,181,1104,235,1152,234.7C1200,235,1248,181,1296,138.7C1344,96,1392,64,1416,48L1440,32L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
-        <svg className="w-[84.3rem] ml-[-5rem]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e77000" fillOpacity="0.95" d="M0,160L24,144C48,128,96,96,144,122.7C192,149,240,235,288,224C336,213,384,107,432,90.7C480,75,528,149,576,186.7C624,224,672,224,720,197.3C768,171,816,117,864,80C912,43,960,21,1008,64C1056,107,1104,213,1152,234.7C1200,256,1248,192,1296,138.7C1344,85,1392,43,1416,21.3L1440,0L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
+        <svg className="w-[84.3rem] ml-[-5rem] mt-[-0.02rem]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e77000" fillOpacity="0.95" d="M0,160L24,144C48,128,96,96,144,122.7C192,149,240,235,288,224C336,213,384,107,432,90.7C480,75,528,149,576,186.7C624,224,672,224,720,197.3C768,171,816,117,864,80C912,43,960,21,1008,64C1056,107,1104,213,1152,234.7C1200,256,1248,192,1296,138.7C1344,85,1392,43,1416,21.3L1440,0L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
       </section>
 
-      <section id="projects">
+      <section id="jobs">
+        <div>
+        <h3 className="text-4xl text-[#cd6e15] py-1">Jobs experience</h3>
+        </div>
+        <div>
+          <div className="flex justify-between mt-[2rem]">
+          <h3 className="">ACRI S.C.</h3>
+          <span className="font-bold">September 2023 - Present</span>
+          </div>
+          <p className="corners mt-[1.5rem] leading-[1.8rem] px-[2rem] py-[1rem]">My experience so far in this company has been developing apps based on some macros (.xlsx) they created a long time ago for the processes they use in their main business of the company and to have more control of what the employees do with them they wanted to start to create web apps and I was in charge in all the frontend part.  The main tools I used to achieve these apps were React, TailwindCSS, and Redux.
+Also, I was in charge of the design of the apps so I got experience working with Figma creating Layouts, and also learning important concepts of UI/UX to make the apps easy to use for the users.</p>
+        </div>
+      </section>
+
+      <section className="mt-[10.2rem]" id="projects">
         <div>
           <h3 className="text-4xl text-[#cd6e15] py-1">Projects I've done</h3>
         </div>
