@@ -100,10 +100,17 @@ function App() {
         </div>
         <div>
           <div className="flex justify-between mt-[2rem]">
-          <h3 className="">ACRI S.C.</h3>
-          <span className="font-bold">September 2023 - Present</span>
+          <h3 className="">Lionbridge Games</h3>
+          <span className="font-bold">May 2024 - Present</span>
           </div>
-          <p className="corners mt-[1.5rem] leading-[1.8rem] px-[2rem] py-[1rem]">My experience so far in this company has been developing apps based on some macros (.xlsx) they created a long time ago for the processes they use in their main business of the company and to have more control of what the employees do with them they wanted to start to create web apps and I was in charge in all the frontend part.  The main tools I used to achieve these apps were React, TailwindCSS, and Redux.
+          <p className="corners mt-[1.5rem] leading-[1.8rem] px-[2rem] py-[1rem]">As a QA Tester at Lionbridge Games, I specialize in testing web pages for a diverse range of clients. My role involves evaluating the User Interface (UI) and User Experience (UX), as well as verifying functionalities across multiple devices, including desktop PCs, laptops, iOS, and Android devices. With my background as a Frontend Developer, I possess an enhanced ability to identify bugs and understand where and how to test websites more effectively. I utilize Jira as the ticketing platform, I document and track defects, collaborate with developers and product managers to resolve issues, and ensure the delivery of high-quality applications that meet client expectations.</p>
+        </div>
+        <div className="mt-[4rem]">
+          <div className="flex justify-between mt-[2rem]">
+          <h3 className="">ACRI S.C.</h3>
+          <span className="font-bold">September 2023 - May 2024</span>
+          </div>
+          <p className="corners mt-[1.5rem] leading-[1.8rem] px-[2rem] py-[1rem]">My experience in this company was developing apps based on some macros (.xlsx) they created a long time ago for the processes they use in their main business of the company and to have more control of what the employees do with them they wanted to start to create web apps and I was in charge in all the frontend part.  The main tools I used to achieve these apps were React, TailwindCSS, and Redux.
 Also, I was in charge of the design of the apps so I got experience working with Figma creating Layouts, and also learning important concepts of UI/UX to make the apps easy to use for the users.</p>
         </div>
       </section>
