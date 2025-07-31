@@ -1,0 +1,32 @@
+{
+  "projects": "Projetos",
+  "resume_button": "Currículo aqui",
+  "hero_title": "Olá, eu sou",
+  "hero_title2": "Saul",
+  "hero_subtitle": "um Engenheiro de Software",
+  "hero_description": "Autodidata com foco sólido em desenvolvimento frontend e paixão por criar experiências web intuitivas e amigáveis. Colaborativo, responsável e organizado, com desejo de crescer profissionalmente e contribuir com uma equipe focada em construir produtos inovadores e de alta qualidade.",
+  "skills_title": "Conjunto de Habilidades",
+  "tools": "Ferramentas e Design",
+  "experience_title": "Minha experiência",
+  "job": {
+    "0": {
+      "company": "Itransition",
+      "position": "Estagiário de Engenharia de Software",
+      "date": "Maio de 2025 - Julho de 2025",
+      "description": "Durante meu estágio como Engenheiro de Software, trabalhei em projetos de desenvolvimento web full-stack, criando interfaces de usuário responsivas e dinâmicas usando React, Tailwind CSS e Redux. No backend, desenvolvi APIs RESTful com Node.js e Express, e gerenciei persistência de dados com MySQL integrado através do ORM Sequelize. Aprimorei minhas habilidades de resolução de problemas enfrentando desafios técnicos reais em todo o stack, encontrando formas melhores de construir e organizar o código. Cumpri prazos e entreguei funcionalidades confiáveis e prontas para uso."
+    },
+    "1": {
+      "company": "Lionbrdge Games",
+      "position": "Testador de QA",
+      "date": "Maio de 2024 - Maio de 2025",
+      "description": "Como Testador de QA na Lionbridge Games, me especializei em testes de páginas web para uma ampla gama de clientes. Minha função envolvia avaliar a Interface do Usuário (UI) e Experiência do Usuário (UX), além de verificar funcionalidades em diversos dispositivos, incluindo PCs, laptops, iOS e Android. Com minha formação como Desenvolvedor Frontend, tenho uma habilidade aprimorada para identificar bugs e entender onde e como testar os sites com mais eficácia. Usei o Jira como plataforma de gerenciamento de tickets, documentei e rastreei defeitos, colaborei com desenvolvedores e gerentes de produto para resolver problemas, e garanti a entrega de aplicativos de alta qualidade que atendem às expectativas dos clientes."
+    },
+    "2": {
+      "company": "ACRI S.C.",
+      "position": "Desenvolvedor Frontend Júnior",
+      "date": "Setembro de 2023 - Maio de 2024",
+      "description": "Desenvolvi aplicações web para substituir antigos macros de Excel utilizados nos processos da empresa, oferecendo aos funcionários maior controle sobre seus fluxos de trabalho. Fui responsável por todo o desenvolvimento frontend usando React, Tailwind CSS e Redux. Também cuidei do design do aplicativo, ganhando experiência com o Figma para criar layouts e aplicar princípios de UI/UX a fim de garantir uma experiência amigável ao usuário."
+    }
+  },
+  "projects_title": "Projetos que realizei"
+}
