@@ -3,25 +3,31 @@
   "resume_button": "Resume here",
   "hero_title": "Hello, I'm",
   "hero_title2": "Saul",
-  "hero_subtitle": "a Software Engineer",
+  "hero_subtitle": "a Software Engineer/QA Tester",
   "hero_description": "Self-taught with a strong focus on frontend development and a passion for creating intuitive, user-friendly web experiences. Collaborative, responsible, and organized, with a desire to grow professionally and contribute to a team focused on building innovative, high-quality products.",
   "skills_title": "Skill Set",
   "tools": "Tools & Design",
   "experience_title": "My experience",
   "job": {
     "0": {
+      "company": "Freelancer",
+      "position": "QA Tester",
+      "date": "February 2025 - Present",
+      "description": "Deliver full-stack QA services across web, mobile (Android/iOS), and software platforms, ensuring high-quality releases for diverse clients. Proficient in manual testing, usability analysis, network traffic analysis using Charles Proxy, API testing with Postman, and performing functional, regression, and exploratory testing. Identified and documented over 100 bugs using industry-standard tools like JIRA, Git, and Chrome DevTools. Contributed to faster release cycles and improved user experience by performing rigorous testing and detailed bug documentation."
+    },
+    "1": {
       "company": "Itransition",
       "position": "Software Engineer Intern",
       "date": "May 2025 - July 2025",
       "description": "During my internship as a Software Engineer, I worked on full-stack web development projects, building responsive and dynamic user interfaces using React, Tailwind CSS, and Redux. On the backend, I developed RESTful APIs using Node.js and Express, and managed data persistence with MySQL integrated through Sequelize ORM. I improved my problem-solving skills by working through real technical challenges across the stack, finding better ways to build and organize the code. I stayed on track with deadlines and delivered features that were reliable and ready to use."
     },
-    "1": {
+    "2": {
       "company": "Lionbrdge Games",
       "position": "QA Tester",
       "date": "May 2024 - May 2025",
       "description": "As a QA Tester at Lionbridge Games, I specialized in testing web pages for a diverse range of clients. My role involved evaluating the User Interface (UI) and User Experience (UX), as well as verifying functionalities across multiple devices, including desktop PCs, laptops, iOS, and Android devices. With my background as a Frontend Developer, I possess an enhanced ability to identify bugs and understand where and how to test websites more effectively. I utilized Jira as the ticketing platform, I documented and tracked defects, collaborated with developers and product managers to resolve issues, and ensured the delivery of high-quality applications that meet client expectations."
     },
-    "2": {
+    "3": {
       "company": "ACRI S.C.",
       "position": "Junior Frontend Developer",
       "date": "September 2023 - May 2024",

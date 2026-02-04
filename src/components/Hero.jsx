@@ -1,5 +1,5 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import dev from "../images/dev-ed-wave.png"
+import dev from "../images/AvatarMouthOpen.png";
 import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
@@ -7,7 +7,7 @@ const { t } = useTranslation();
   return (
             <div className="flex">
         <div className="relative mx-auto bg-gradient-to-b from-[#cd6e15] rounded-full w-80 h-80 mt-15 overflow-hidden md:h-[30rem] md:w-[122rem]">
-          <img src={dev} alt="dev-avatar" layout="fill" objectfit="cover" />
+          <img className="w-[20rem] mt-[3rem] ml-[3rem]" src={dev} alt="dev-avatar" layout="fill" objectfit="cover" />
         </div>
         <div className="text-center mt-[1.5rem] ml-[1rem] px-[1.5rem]">
           <h2 className="text-5xl py-2 text-white font-semibold md:text-6xl">

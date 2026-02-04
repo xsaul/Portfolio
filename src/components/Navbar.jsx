@@ -29,7 +29,7 @@ const Navbar = () => {
             <li>
               <a
                 className="hover:bg-[#e67b18] bg-[#cd6e15] text-gray-200 px-4 py-2 border-none rounded-md ml-8"
-                href="https://rxresu.me/xsaul/frontend-development" target="_blank"
+                href="https://rxresu.me/xsaul/qa" target="_blank"
               >
               {t('resume_button')}
               </a>

@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 
 function App() {
   const { t } = useTranslation();
-  const jobIndexes = [0, 1, 2];
+  const jobIndexes = [0, 1, 2, 3];
   return (
     <main className="background px-10 md:px-15 lg:px-20">
       <section className="min-h-screen">

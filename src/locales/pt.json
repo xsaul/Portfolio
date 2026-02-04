@@ -3,25 +3,31 @@
   "resume_button": "Currículo aqui",
   "hero_title": "Olá, eu sou",
   "hero_title2": "Saul",
-  "hero_subtitle": "um Engenheiro de Software",
+  "hero_subtitle": "um Engenheiro de Software/QA Tester",
   "hero_description": "Autodidata com foco sólido em desenvolvimento frontend e paixão por criar experiências web intuitivas e amigáveis. Colaborativo, responsável e organizado, com desejo de crescer profissionalmente e contribuir com uma equipe focada em construir produtos inovadores e de alta qualidade.",
   "skills_title": "Conjunto de Habilidades",
   "tools": "Ferramentas e Design",
   "experience_title": "Minha experiência",
   "job": {
-    "0": {
+     "0": {
+      "company": "Freelancer",
+      "position": "Testador de QA",
+      "date": "Fevereiro 2025 - Presente",
+      "description": "Presto serviços de QA full-stack em plataformas web, mobile (Android/iOS) e software, garantindo entregas de alta qualidade para diversos clientes. Proficiente em testes manuais, análise de usabilidade, análise de tráfego de rede com Charles Proxy, testes de API com Postman e execução de testes funcionais, de regressão e exploratórios. Identifiquei e documentei mais de 100 bugs utilizando ferramentas padrão da indústria, como JIRA, Git e Chrome DevTools. Contribuí para ciclos de release mais rápidos e para a melhoria da experiência do usuário por meio de testes rigorosos e documentação detalhada de falhas."
+    },
+    "1": {
       "company": "Itransition",
       "position": "Estagiário de Engenharia de Software",
       "date": "Maio de 2025 - Julho de 2025",
       "description": "Durante meu estágio como Engenheiro de Software, trabalhei em projetos de desenvolvimento web full-stack, criando interfaces de usuário responsivas e dinâmicas usando React, Tailwind CSS e Redux. No backend, desenvolvi APIs RESTful com Node.js e Express, e gerenciei persistência de dados com MySQL integrado através do ORM Sequelize. Aprimorei minhas habilidades de resolução de problemas enfrentando desafios técnicos reais em todo o stack, encontrando formas melhores de construir e organizar o código. Cumpri prazos e entreguei funcionalidades confiáveis e prontas para uso."
     },
-    "1": {
+    "2": {
       "company": "Lionbrdge Games",
       "position": "Testador de QA",
       "date": "Maio de 2024 - Maio de 2025",
       "description": "Como Testador de QA na Lionbridge Games, me especializei em testes de páginas web para uma ampla gama de clientes. Minha função envolvia avaliar a Interface do Usuário (UI) e Experiência do Usuário (UX), além de verificar funcionalidades em diversos dispositivos, incluindo PCs, laptops, iOS e Android. Com minha formação como Desenvolvedor Frontend, tenho uma habilidade aprimorada para identificar bugs e entender onde e como testar os sites com mais eficácia. Usei o Jira como plataforma de gerenciamento de tickets, documentei e rastreei defeitos, colaborei com desenvolvedores e gerentes de produto para resolver problemas, e garanti a entrega de aplicativos de alta qualidade que atendem às expectativas dos clientes."
     },
-    "2": {
+    "3": {
       "company": "ACRI S.C.",
       "position": "Desenvolvedor Frontend Júnior",
       "date": "Setembro de 2023 - Maio de 2024",
