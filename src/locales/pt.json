@@ -8,31 +8,52 @@
   "skills_title": "Conjunto de Habilidades",
   "tools": "Ferramentas e Design",
   "experience_title": "Minha experiência",
+  "qa_title": "Destaques de QA",
   "job": {
-     "0": {
+    "0": {
+  "company": "Keywords Studios",
+  "position": "Testador de QA",
+  "date": "Janeiro de 2026 - Presente",
+  "description": "Testador de QA em um jogo esportivo de grande escala com forte foco em Cloud Gaming. Usei Jira e TestRail para rastrear e documentar defeitos, executando testes funcionais e de regressão na plataforma de Cloud Gaming."
+},
+     "1": {
       "company": "Freelancer",
       "position": "Testador de QA",
-      "date": "Fevereiro 2025 - Presente",
+      "date": "Fevereiro 2025 - Janeiro 2026",
       "description": "Presto serviços de QA full-stack em plataformas web, mobile (Android/iOS) e software, garantindo entregas de alta qualidade para diversos clientes. Proficiente em testes manuais, análise de usabilidade, análise de tráfego de rede com Charles Proxy, testes de API com Postman e execução de testes funcionais, de regressão e exploratórios. Identifiquei e documentei mais de 100 bugs utilizando ferramentas padrão da indústria, como JIRA, Git e Chrome DevTools. Contribuí para ciclos de release mais rápidos e para a melhoria da experiência do usuário por meio de testes rigorosos e documentação detalhada de falhas."
     },
-    "1": {
+    "2": {
       "company": "Itransition",
       "position": "Estagiário de Engenharia de Software",
       "date": "Maio de 2025 - Julho de 2025",
       "description": "Durante meu estágio como Engenheiro de Software, trabalhei em projetos de desenvolvimento web full-stack, criando interfaces de usuário responsivas e dinâmicas usando React, Tailwind CSS e Redux. No backend, desenvolvi APIs RESTful com Node.js e Express, e gerenciei persistência de dados com MySQL integrado através do ORM Sequelize. Aprimorei minhas habilidades de resolução de problemas enfrentando desafios técnicos reais em todo o stack, encontrando formas melhores de construir e organizar o código. Cumpri prazos e entreguei funcionalidades confiáveis e prontas para uso."
     },
-    "2": {
+    "3": {
       "company": "Lionbrdge Games",
       "position": "Testador de QA",
       "date": "Maio de 2024 - Maio de 2025",
-      "description": "Como Testador de QA na Lionbridge Games, me especializei em testes de páginas web para uma ampla gama de clientes. Minha função envolvia avaliar a Interface do Usuário (UI) e Experiência do Usuário (UX), além de verificar funcionalidades em diversos dispositivos, incluindo PCs, laptops, iOS e Android. Com minha formação como Desenvolvedor Frontend, tenho uma habilidade aprimorada para identificar bugs e entender onde e como testar os sites com mais eficácia. Usei o Jira como plataforma de gerenciamento de tickets, documentei e rastreei defeitos, colaborei com desenvolvedores e gerentes de produto para resolver problemas, e garanti a entrega de aplicativos de alta qualidade que atendem às expectativas dos clientes."
+      "description": "Como Testador de QA na Lionbridge Games, trabalhei em um título AAA do gênero shooter, realizando testes multiplataforma em Xbox e PlayStation. Usei Jira e TestRail para documentar e rastrear defeitos, colaborei com desenvolvedores e produtores, e ajudei a garantir a qualidade de um lançamento de console em grande escala."
     },
-    "3": {
+    "4": {
       "company": "ACRI S.C.",
       "position": "Desenvolvedor Frontend Júnior",
       "date": "Setembro de 2023 - Maio de 2024",
       "description": "Desenvolvi aplicações web para substituir antigos macros de Excel utilizados nos processos da empresa, oferecendo aos funcionários maior controle sobre seus fluxos de trabalho. Fui responsável por todo o desenvolvimento frontend usando React, Tailwind CSS e Redux. Também cuidei do design do aplicativo, ganhando experiência com o Figma para criar layouts e aplicar princípios de UI/UX a fim de garantir uma experiência amigável ao usuário."
     }
   },
+  "qa": {
+  "0": {
+    "title": "AAA Shooter — Lionbridge Games",
+    "description": "QA em um título AAA do gênero shooter, testes multiplataforma em Xbox e PlayStation."
+  },
+  "1": {
+    "title": "Esportivo / Cloud Gaming — Keywords Studios",
+    "description": "QA em um jogo esportivo de grande escala focado em Cloud Gaming."
+  },
+  "2": {
+    "title": "QA de Software",
+    "description": "Testes manuais de pagamentos em crypto, fluxos de desconto em assinaturas e verificação de UI/cobranças."
+  }
+},
   "projects_title": "Projetos que realizei"
 }

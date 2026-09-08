@@ -1,14 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.87);
+  color: #000000;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply transition-colors duration-500;
+  }
+}
 
 
 .gridd{
@@ -20,18 +26,20 @@
 }
 
 .background{
-  background: linear-gradient(88deg, #000000 0%, #090a19 50%, #020413 100%);
+  background: #f6f5f4;
 }
 
 .corners {
-  background: linear-gradient(to right, #cd6e15 4px, transparent 4px) 0 0,
-              linear-gradient(to right, #cd6e15 4px, transparent 4px) 0 100%,
-              linear-gradient(to left, #cd6e15 4px, transparent 4px) 100% 0,
-              linear-gradient(to left, #cd6e15 4px, transparent 4px) 100% 100%,
-              linear-gradient(to bottom, #cd6e15 4px, transparent 4px) 0 0,
-              linear-gradient(to bottom, #cd6e15 4px, transparent 4px) 100% 0,
-              linear-gradient(to top, #cd6e15 4px, transparent 4px) 0 100%,
-              linear-gradient(to top, #cd6e15 4px, transparent 4px) 100% 100%;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.dark .background {
+  background: #02093a;
+}
+
+.dark .corners {
+  background: #0b1042;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }

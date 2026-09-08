@@ -8,33 +8,52 @@
   "skills_title": "Skill Set",
   "tools": "Tools & Design",
   "experience_title": "My experience",
+  "qa_title": "QA Highlights",
   "job": {
-    "0": {
-      "company": "Freelancer",
-      "position": "QA Tester",
-      "date": "February 2025 - Present",
-      "description": "Deliver full-stack QA services across web, mobile (Android/iOS), and software platforms, ensuring high-quality releases for diverse clients. Proficient in manual testing, usability analysis, network traffic analysis using Charles Proxy, API testing with Postman, and performing functional, regression, and exploratory testing. Identified and documented over 100 bugs using industry-standard tools like JIRA, Git, and Chrome DevTools. Contributed to faster release cycles and improved user experience by performing rigorous testing and detailed bug documentation."
+    "0":{
+      "company": "Keywords Studios",
+  "position": "QA Tester",
+  "date": "January 2026 - Present",
+  "description": "QA Tester on a large-scale sports game with a strong focus on Cloud Gaming. Used Jira and TestRail to track and document defects, running functional and regression testing across the Cloud Gaming platform."
     },
     "1": {
+      "company": "Freelancer",
+      "position": "QA Tester",
+      "date": "February 2025 - January 2026",
+      "description": "Deliver full-stack QA services across web, mobile (Android/iOS), and software platforms, ensuring high-quality releases for diverse clients. Proficient in manual testing, usability analysis, network traffic analysis using Charles Proxy, API testing with Postman, and performing functional, regression, and exploratory testing. Identified and documented over 100 bugs using industry-standard tools like JIRA, Git, and Chrome DevTools. Contributed to faster release cycles and improved user experience by performing rigorous testing and detailed bug documentation."
+    },
+    "2": {
       "company": "Itransition",
       "position": "Software Engineer Intern",
       "date": "May 2025 - July 2025",
       "description": "During my internship as a Software Engineer, I worked on full-stack web development projects, building responsive and dynamic user interfaces using React, Tailwind CSS, and Redux. On the backend, I developed RESTful APIs using Node.js and Express, and managed data persistence with MySQL integrated through Sequelize ORM. I improved my problem-solving skills by working through real technical challenges across the stack, finding better ways to build and organize the code. I stayed on track with deadlines and delivered features that were reliable and ready to use."
     },
-    "2": {
+    "3": {
       "company": "Lionbrdge Games",
       "position": "QA Tester",
       "date": "May 2024 - May 2025",
-      "description": "As a QA Tester at Lionbridge Games, I specialized in testing web pages for a diverse range of clients. My role involved evaluating the User Interface (UI) and User Experience (UX), as well as verifying functionalities across multiple devices, including desktop PCs, laptops, iOS, and Android devices. With my background as a Frontend Developer, I possess an enhanced ability to identify bugs and understand where and how to test websites more effectively. I utilized Jira as the ticketing platform, I documented and tracked defects, collaborated with developers and product managers to resolve issues, and ensured the delivery of high-quality applications that meet client expectations."
+      "description": "As a QA Tester at Lionbridge Games, I worked on a AAA shooter title, performing cross-platform testing on Xbox and PlayStation. I used Jira and TestRail to document and track defects, collaborated with developers and producers, and helped ensure the quality of a large-scale console release."
     },
-    "3": {
+    "4": {
       "company": "ACRI S.C.",
       "position": "Junior Frontend Developer",
       "date": "September 2023 - May 2024",
       "description": "I developed web applications to replace older Excel macros used in the company’s processes, giving employees better control over their workflows. I handled the entire frontend development using React, Tailwind CSS, and Redux. Additionally, I was responsible for the app design, gaining experience in Figma to create layouts and applying UI/UX principles to ensure a user-friendly experience."
     }
   },
+  "qa": {
+  "0": {
+    "title": "AAA Shooter — Lionbridge Games",
+    "description": "QA on a AAA shooter title, cross-platform testing on Xbox and PlayStation."
+  },
+  "1": {
+    "title": "Sports / Cloud Gaming — Keywords Studios",
+    "description": "QA on a large-scale sports game focused on Cloud Gaming."
+  },
+  "2": {
+    "title": "Software QA",
+    "description": "Manual testing of crypto payments, subscription discount flows, and UI/charge verification."
+  }
+},
   "projects_title": "Projects I've done"
 }
-
-

@@ -1,14 +1,12 @@
 const Skills = ({areaTitle, skills}) => {
   return (
-    <div className="corners px-5 py-3 mt-[6rem]">
-      <div className="text-center mb-2">
-    <h1 className="text-[18px]">{areaTitle}</h1>
-      </div>
-    <div className="flex flex-wrap gap-x-8 text-center shadow-lg rounded-xl h-40 w-[14rem]">
+    <div className="corners px-5 py-4 mt-[3rem] w-[14rem]">
+      <h1 className="text-center text-[18px] font-medium mb-3 text-black dark:text-white">{areaTitle}</h1>
+      <div className="flex flex-wrap gap-2 justify-center">
         {skills.map((skill, index) => (
-            <p key={index} className="text-gray-200 text-sm mt-1">{skill}</p>
+          <span key={index} className="bg-primary-tint dark:bg-white/10 text-primary dark:text-white text-xs px-3 py-1 rounded-full">{skill}</span>
         ))}
-    </div>
+      </div>
     </div>
   )
 }

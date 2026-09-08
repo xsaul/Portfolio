@@ -7,32 +7,53 @@
   "hero_description": "Ingeniero de Software autodidacta con un enfoque sólido en el desarrollo frontend y una pasión por crear experiencias web intuitivas y centradas en el usuario. Colaborativo, responsable y organizado, con el deseo de crecer profesionalmente y contribuir en un equipo enfocado en construir productos innovadores y de alta calidad.",
   "skills_title": "Set de Skills",
   "experience_title": "Mi experiencia",
+  "qa_title": "Destacados de QA",
    "tools": "Herramientas y Diseño",
   "job": {
-     "0": {
+    "0": {
+  "company": "Keywords Studios",
+  "position": "Analista de Calidad (QA Tester)",
+  "date": "Enero 2026 - Presente",
+  "description": "Analista de Calidad en un juego deportivo de gran escala con fuerte enfoque en Cloud Gaming. Utilicé Jira y TestRail para dar seguimiento y documentar defectos, ejecutando pruebas funcionales y de regresión en la plataforma de Cloud Gaming."
+},
+     "1": {
       "company": "Freelancer",
       "position": "Analista de Calidad (QA Tester)",
-      "date": "Febrero 2025 - Presente",
+      "date": "Febrero 2025 - Enero 2026",
       "description": "Presto servicios de QA full-stack en plataformas web, móviles (Android/iOS) y de software, asegurando lanzamientos de alta calidad para diversos clientes. Experiencia en pruebas manuales, análisis de usabilidad, análisis de tráfico de red con Charles Proxy, pruebas de API con Postman y ejecución de pruebas funcionales, de regresión y exploratorias. Identifiqué y documenté más de 100 bugs utilizando herramientas estándar de la industria como JIRA, Git y Chrome DevTools. Contribuí a ciclos de lanzamiento más rápidos y a una mejor experiencia de usuario mediante pruebas rigurosas y documentación detallada de defectos."
     },
-    "1": {
+    "2": {
       "company": "Itransition",
       "position": "Practicante de Ingeniería de Software",
       "date": "Mayo 2025 - Julio 2025",
       "description": "Durante mi práctica profesional como Ingeniero de Software, trabajé en proyectos de desarrollo web full-stack, creando interfaces de usuario dinámicas y responsivas con React, Tailwind CSS y Redux. En el backend, desarrollé APIs RESTful utilizando Node.js y Express, y gestioné la base de datos con MySQL a través de Sequelize ORM. Mejoré mis habilidades para resolver problemas al enfrentar desafíos técnicos reales en todo el stack, encontrando formas más eficientes de estructurar y optimizar el código. Cumplí con los plazos establecidos y entregué funcionalidades confiables y listas para su uso."
     },
-    "2": {
+    "3": {
       "company": "Lionbrdge Games",
       "position": "Analista de Calidad (QA Tester)",
       "date": "Mayo 2024 - Mayo 2025",
-      "description": "Como Analista de Calidad en Lionbridge Games, me especializo en probar páginas web para una amplia gama de clientes. Mi función consiste en evaluar la interfaz de usuario (UI) y la experiencia de usuario (UX), así como verificar las funcionalidades en múltiples dispositivos, incluidos PCs de escritorio, laptops, dispositivos iOS y Android. Con mi experiencia como Desarrollador Frontend, poseo una habilidad mejorada para identificar errores y comprender dónde y cómo probar los sitios web de manera más eficaz. Utilizo Jira como plataforma de tickets, documento y sigo los defectos, colaboro con desarrolladores y gestores de productos para resolver problemas y asegurar la entrega de aplicaciones de alta calidad que cumplen con las expectativas de los clientes."
+      "description": "Como Analista de Calidad en Lionbridge Games, trabajé en un título AAA del género shooter, realizando pruebas multiplataforma en Xbox y PlayStation. Utilicé Jira y TestRail para documentar y dar seguimiento a defectos, colaboré con desarrolladores y productores, y ayudé a asegurar la calidad de un lanzamiento de consola a gran escala."
     },
-    "3": {
+    "4": {
       "company": "ACRI S.C.",
       "position": "Desarrollador Frontend Junior",
       "date": "Septiembre 2023 - Mayo 2024",
       "description": "Mi experiencia en esta empresa consistió en desarrollar aplicaciones web para reemplazar macros antiguas de Excel utilizadas en los procesos clave de la empresa, brindando a los empleados un mejor control sobre sus flujos de trabajo. Me encargué por completo del desarrollo frontend utilizando React, Tailwind CSS y Redux. Además, fui responsable del diseño de la aplicación, adquiriendo experiencia en Figma para crear diseños y aplicando principios de UI/UX para garantizar una experiencia fácil de usar."
     }
   },
+  "qa": {
+  "0": {
+    "title": "AAA Shooter — Lionbridge Games",
+    "description": "QA en un título AAA del género shooter, testeo multiplataforma en Xbox y PlayStation."
+  },
+  "1": {
+    "title": "Deportivo / Cloud Gaming — Keywords Studios",
+    "description": "QA en un juego deportivo de gran escala enfocado en Cloud Gaming."
+  },
+  "2": {
+    "title": "QA de Software",
+    "description": "Testeo manual de pagos en crypto, flujos de descuento en suscripciones y verificación de UI/cargos."
+  }
+},
   "projects_title": "Proyectos que he realizado"
 }

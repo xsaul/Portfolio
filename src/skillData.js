@@ -8,7 +8,7 @@ const skillData = [{
 },
 {
     areaTitle: "Tools & Design",
-    skills:["Git", "GitHub", "VS Code", "Postman", "Figma", "Jira"]
+    skills:["Git", "GitHub", "VS Code", "Postman", "Figma", "Jira", "Claude", "ChatGPT"]
 }]
 
 export default skillData;
