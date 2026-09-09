@@ -3,7 +3,7 @@
   "resume_button": "CV aquí",
   "hero_title": "Hola, soy",
   "hero_title2": "Saul",
-  "hero_subtitle": "un Ingeniero de Software/Ingeniero deQA",
+  "hero_subtitle": "un Ingeniero de Software/Ingeniero de QA",
   "hero_description": "Ingeniero de Software autodidacta con un enfoque sólido en el desarrollo frontend y una pasión por crear experiencias web intuitivas y centradas en el usuario. Colaborativo, responsable y organizado, con el deseo de crecer profesionalmente y contribuir en un equipo enfocado en construir productos innovadores y de alta calidad.",
   "skills_title": "Set de Skills",
   "experience_title": "Mi experiencia",
@@ -55,5 +55,15 @@
     "description": "Testeo manual de pagos en crypto, flujos de descuento en suscripciones y verificación de UI/cargos."
   }
 },
-  "projects_title": "Proyectos que he realizado"
+"project_details": {
+  "0": {
+    "description": "Sitio diseñado para mostrar mis habilidades como desarrollador frontend, sin necesidad de base de datos o backend. Construido con React para crear componentes reutilizables, empaquetado con Vite, estilizado completamente con Tailwind CSS (incluyendo el diseño responsive para mobile), y traducido a varios idiomas usando i18next."
+  },
+  "1": {
+    "description": "Proyecto creado para practicar la conexión del frontend con una API externa (RapidAPI). Muestra recetas de cócteles con alcohol, con una página de detalle por receta (usando su ID en la ruta) y un buscador de recetas según el tipo de alcohol. Construido con React, React Router para el manejo de rutas, Vite y Tailwind CSS."
+  }
+},
+  "projects_title": "Proyectos que he realizado",
+  "project_modal_view_site": "Ver sitio en vivo",
+"project_modal_source_code": "Código fuente"
 }

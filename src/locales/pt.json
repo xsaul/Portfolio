@@ -55,5 +55,15 @@
     "description": "Testes manuais de pagamentos em crypto, fluxos de desconto em assinaturas e verificação de UI/cobranças."
   }
 },
-  "projects_title": "Projetos que realizei"
+"project_details": {
+  "0": {
+    "description": "Site projetado para mostrar minhas habilidades como desenvolvedor frontend, sem necessidade de banco de dados ou backend. Construído com React para criar componentes reutilizáveis, empacotado com Vite, totalmente estilizado com Tailwind CSS (incluindo o design responsivo para mobile), e traduzido para vários idiomas usando i18next."
+  },
+  "1": {
+    "description": "Projeto criado para praticar a conexão do frontend com uma API externa (RapidAPI). Mostra receitas de coquetéis com álcool, com uma página de detalhe por receita (usando seu ID na rota) e um buscador de receitas por tipo de álcool. Construído com React, React Router para o gerenciamento de rotas, Vite e Tailwind CSS."
+  }
+},
+  "projects_title": "Projetos que realizei",
+  "project_modal_view_site": "Ver site ao vivo",
+"project_modal_source_code": "Código fonte"
 }

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const languages = [
@@ -19,6 +19,13 @@ const circles = [
 const LanguageModal = ({ onSelect }) => {
   const { i18n } = useTranslation();
   const [isExiting, setIsExiting] = useState(false);
+
+  useEffect(() => {
+  document.body.style.overflow = "hidden";
+  return () => {
+    document.body.style.overflow = "auto";
+  };
+}, []);
 
   const handleSelect = (code) => {
     i18n.changeLanguage(code);

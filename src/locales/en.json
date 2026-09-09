@@ -55,5 +55,15 @@
     "description": "Manual testing of crypto payments, subscription discount flows, and UI/charge verification."
   }
 },
-  "projects_title": "Projects I've done"
+"project_details": {
+  "0": {
+    "description": "A site designed to showcase my skills as a frontend developer, with no need for a database or backend. Built with React for reusable components, bundled with Vite, fully styled with Tailwind CSS (including the mobile-responsive design), and translated into multiple languages using i18next."
+  },
+  "1": {
+    "description": "A project built to practice connecting the frontend with an external API (RapidAPI). It shows cocktail recipes, with a detail page per recipe (using its ID in the route) and a search feature by type of alcohol. Built with React, React Router for routing, Vite, and Tailwind CSS."
+  }
+},
+  "projects_title": "Projects I've done",
+  "project_modal_view_site": "View Live Site",
+"project_modal_source_code": "Source Code"
 }

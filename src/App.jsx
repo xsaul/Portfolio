@@ -36,7 +36,7 @@ useEffect(() => {
       <Hero />
       </section>
       <section className="mt-28">
-            <h4 className="text-4xl absolute text-[#cd6e15]">{t('skills_title')}</h4>
+            <h3 className="text-3xl md:text-4xl text-primary mb-5">{t('skills_title')}</h3>
         <div className="flex flex-wrap flex-col justify-evenly md:flex-row items-center">
           {
           skillData.map((skill, index) => (
@@ -74,6 +74,8 @@ useEffect(() => {
       link={project.link}
       name={project.name}
       index={index}
+      stack={project.stack}
+      githubLink={project.githubLink}
     />
   ))
 }

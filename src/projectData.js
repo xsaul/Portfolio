@@ -7,12 +7,16 @@ import web4 from "../src/images/Bank.jpg";
 const projectData = [{
     img: web1,
     link: "https://xsaul.github.io/Portfolio/",
-    name: "Saul's Portfolio"
+    name: "Saul's Portfolio",
+    stack: ["React", "Vite", "Tailwind CSS", "i18next"],
+    githubLink: "https://github.com/xsaul/Portfolio"
 },
 {
     img: web2,
     link: "https://xsaul.github.io/drinkally/",
-    name: "Drinkally"
+    name: "Drinkally",
+    stack: ["React", "React Router", "Vite", "Tailwind CSS"],
+    githubLink: "https://github.com/xsaul/drinkally"
 },
 {
     img: web3,
