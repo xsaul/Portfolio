@@ -10,6 +10,23 @@ html {
   scrollbar-gutter: stable;
 }
 
+html {
+  background-color: #f6f5f4;
+}
+
+html.dark {
+  background-color: #02093a;
+}
+
+::-webkit-scrollbar-track {
+  background: #f6f5f4;
+  box-shadow: none;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #02093a;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

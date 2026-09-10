@@ -36,17 +36,44 @@ const LanguageModal = ({ onSelect }) => {
   };
 
   return (
-    <div className={`fixed inset-0 z-[100] bg-canvas dark:bg-midnight flex items-center justify-center px-6 overflow-hidden transition-opacity duration-700 ${isExiting ? "opacity-0 pointer-events-none" : "opacity-100"}`}>
+//     <div className={`fixed inset-0 z-[100] bg-canvas dark:bg-midnight flex items-center justify-center px-6 overflow-hidden transition-opacity duration-700 ${isExiting ? "opacity-0 pointer-events-none" : "opacity-100"}`}>
+//       {circles.map((circle, index) => (
+//         <div
+//           key={index}
+//           className={`absolute rounded-full hidden md:block transition-transform duration-500 ease-in ${circle.base} ${circle.delay} ${isExiting ? circle.exit : "translate-x-0 translate-y-0"}`}
+//         />
+//       ))}
+
+//       <div className="relative z-10 text-center">
+//         <h1 className="text-4xl md:text-5xl font-bold text-black dark:text-white mb-2">Saul González Portfolio</h1>
+// <h2 className="text-xl md:text-2xl font-medium text-graphite dark:text-white/70 mb-8">Choose your language</h2>
+//         <div className="flex flex-col gap-3">
+//           {languages.map((lang) => (
+//             <button
+//               key={lang.code}
+//               onClick={() => handleSelect(lang.code)}
+//               className="flex items-center justify-center gap-3 bg-primary-tint hover:bg-primary hover:text-white text-black text-lg font-medium px-6 py-3 rounded-btn transition-colors duration-200"
+//             >
+//               <img src={`https://flagcdn.com/w40/${lang.flagCode}.png`} alt={lang.label} className="w-6 h-auto rounded-sm" />
+//               {lang.label}
+//             </button>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+
+<div className={`fixed inset-0 z-[100] bg-canvas dark:bg-midnight flex items-center justify-center px-6 overflow-hidden transition-opacity duration-700 ${isExiting ? "opacity-0 pointer-events-none" : "opacity-100"}`}>
+      {/* Mapeo de los círculos decorativos */}
       {circles.map((circle, index) => (
         <div
           key={index}
-          className={`absolute rounded-full hidden md:block transition-transform duration-500 ease-in ${circle.base} ${circle.delay} ${isExiting ? circle.exit : "translate-x-0 translate-y-0"}`}
+          className={`absolute rounded-full transition-transform duration-500 ease-in ${circle.base} ${circle.delay} ${isExiting ? circle.exit : "translate-x-0 translate-y-0"}`}
         />
       ))}
 
       <div className="relative z-10 text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-black dark:text-white mb-2">Saul González Portfolio</h1>
-<h2 className="text-xl md:text-2xl font-medium text-graphite dark:text-white/70 mb-8">Choose your language</h2>
+        <h2 className="text-xl md:text-2xl font-medium text-graphite dark:text-white/70 mb-8">Choose your language</h2>
         <div className="flex flex-col gap-3">
           {languages.map((lang) => (
             <button
