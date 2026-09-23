@@ -57,9 +57,12 @@
 },
 "project_details": {
   "0": {
-    "description": "Sitio diseñado para mostrar mis habilidades como desarrollador frontend, sin necesidad de base de datos o backend. Construido con React para crear componentes reutilizables, empaquetado con Vite, estilizado completamente con Tailwind CSS (incluyendo el diseño responsive para mobile), y traducido a varios idiomas usando i18next."
+    "description": "Diseñado en Figma y desarrollado con React, Vite y Tailwind CSS, este sitio web adaptable cuenta con una galería de imágenes optimizada. Para garantizar un desplazamiento fluido y evitar retrasos con archivos de alta resolución, implementa lazy loading, ofreciendo tiempos de carga ultrarrápidos y una experiencia visual impecable en todos los dispositivos."
   },
   "1": {
+    "description": "Sitio diseñado para mostrar mis habilidades como desarrollador frontend, sin necesidad de base de datos o backend. Construido con React para crear componentes reutilizables, empaquetado con Vite, estilizado completamente con Tailwind CSS (incluyendo el diseño responsive para mobile), y traducido a varios idiomas usando i18next."
+  },
+  "2": {
     "description": "Proyecto creado para practicar la conexión del frontend con una API externa (RapidAPI). Muestra recetas de cócteles con alcohol, con una página de detalle por receta (usando su ID en la ruta) y un buscador de recetas según el tipo de alcohol. Construido con React, React Router para el manejo de rutas, Vite y Tailwind CSS."
   }
 },
